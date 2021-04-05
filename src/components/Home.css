@@ -1,0 +1,12 @@
+.about-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}
+
+.portfolio-pic{
+    border-radius: 50%;
+    max-width: 75%;
+}
