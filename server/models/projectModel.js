@@ -20,7 +20,10 @@ const projectSchema = new Schema({
       },
     description: {
         type: String
-      }
+      },
+    techstack: [{
+        type: String
+    }]
 
 });
 

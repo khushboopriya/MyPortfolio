@@ -1,0 +1,40 @@
+.project{
+    background-color: #373b69;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  position: relative;
+  overflow: hidden; 
+  width:300px;
+}
+
+.project img{
+    max-width: 100%;
+    cursor: pointer;
+  }
+
+.project p{
+    margin: 1vh;
+}
+
+.project a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vh;
+    margin-left: 2vh;
+}
+.skill-row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vh;
+    margin-left: 2vh;
+}
+
+.skill{
+    color: white;
+    background-color: blueviolet;
+}
