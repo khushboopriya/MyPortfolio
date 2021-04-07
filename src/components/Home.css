@@ -4,12 +4,21 @@
     margin-top: 5vh;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 80vw;
-    height: 50vh;
-    margin: 10vh;
+    width: auto;
+    height: 80vh;
+    /* margin: 10vh; */
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio-pic{
     border-radius: 50%;
     max-width: 75%;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    margin: 3vh;
+
 }

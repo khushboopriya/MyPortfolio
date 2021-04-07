@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './components/Home.js';
 import ProjectPage from './components/ProjectPage';
+import Contact from './components/Contact';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/projects" component={ProjectPage} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
     </Router>
   );

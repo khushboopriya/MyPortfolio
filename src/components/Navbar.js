@@ -10,6 +10,7 @@ render(){
        <div className="navbar">
        <Link to="/" className="Home"><i class="fa fa-film"></i> Home</Link>
        <Link to="/projects" className="Home">Projects</Link>
+       <Link to="/contact" className="Home">Contact</Link>
        </div>
     </>
     )

@@ -1,12 +1,32 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
 import { Link } from 'react-router-dom';
-import './Project.css'
+import './Project.css';
+import Navbar from './Navbar';
+import sample from '../images/my_bg.mov';
 
 
 const Project = ({title,description,poster,githublink,demolink,techstack}) => {
-    let history = useHistory();
     return (
+    <>
+
+        <video className='videoTag' autoPlay loop muted
+        style={{
+            position:"absolute",
+            width: "100%",
+            // left:"50%",
+            // top:"50%",
+            height:"100%",
+            objectFit:"cover",
+            transform:"transalte(-50%,-50%)",
+            zIndex:"-1"
+
+        }}>
+        <source src={sample} type='video/mp4' />
+            </video>
+
+        
+
     <div className="project">
         <img src={poster} alt={title}/>
         <div className="title">
@@ -15,16 +35,24 @@ const Project = ({title,description,poster,githublink,demolink,techstack}) => {
         <div className="description">
             <p>{description}</p>
         </div>
-        <div className="skill-row">
-            {techstack.map(txt => <span className="skill">{txt}</span>)}
+        <div className="skill-block"> 
+            <p className="techstack">
+                TechStack
+            </p>
+            <div className="skill-row">
+                {techstack.map(txt => <span className="skill">{txt}</span>)}
+            </div>
         </div>
+        
         <div className="buttons">
-            <a href={githublink}> Code</a>
-            <a href={demolink}> Demo</a>
+            <a href={githublink}> Source Code</a>
+            <a href={demolink}> Live Demo</a>
         </div>
         
 
     </div>
+
+    </>
     );
 }
 export default Project;

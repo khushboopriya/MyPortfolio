@@ -26,22 +26,27 @@ class Home extends React.Component {
                 <source src={sample} type='video/mp4' />
             </video>
                 <div className="about-section">
+                    <div className="about-content">
                     <div>
                         <img className="portfolio-pic" src={portfolioimg} alt="khushboo"/>
                     </div>
                     <div>
                         <p className="AboutMe">
-                        I am currently working as a Senior Analyst in Capgemini.   
+                        I am currently working as a Senior Analyst in Capgemini.  
+                        </p>
+                        <p >
+                        I am a 2020 graduate from IIIT Naya Raipur with majors in Computer Science and Engineering with cpga of 8.67, have worked on various machine learning and development projects.
                         </p>
                         <p>
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-                        versions of Lorem Ipsum.
+                        Solving real life problems with help of technology is something I love. Apart from that, I love painting,watching movies and working out in my free time.
+
+                        
                         </p>
 
                     </div>
+
+                    </div>
+                    
 
                 </div>
 
