@@ -16,6 +16,35 @@ h2{
 	width: 100%;
 	text-align: center;
 }
+.mail-box{
+	background-color: #f1f1f1;
+	width: 30vw;
+	height: 15vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1vh;
+}
+
+.contact-boxes{
+	/* background-color: black; */
+	display: flex;
+	justify-content: center;
+}
+
+.mail-box i{
+	margin-top: 1vh;
+	color: black;
+	font-size: 4vh;
+}
+
+.heading-contact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .btn {
 	display: inline-block;
@@ -80,4 +109,20 @@ top: 90%;
 		top: -10%;
 		left: -10%;
 	}
+}
+
+@media screen and (max-width: 980px){
+
+	.contact-boxes{
+		margin-bottom: 15vh;
+	}
+
+	.middle {
+		margin-top: 10vh;
+	}
+
+	.mail-box{
+		width: 80vw;
+	}
+
 }

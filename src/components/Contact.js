@@ -25,8 +25,24 @@ render(){
                    
         <source src={sample} type='video/mp4' />
             </video>
+        <div>
+            <div className="heading-contact">
+                <h2>Get In Touch</h2>
+            </div>
+            <div className="contact-boxes">
+                <div className="mail-box">
+                    <i class="fa fa-envelope center" aria-hidden="true"></i>
+                    <p>khushboopriyaiiitnr@gmail.com</p>
+                </div>
+
+            </div>
+
+        
+
+        </div>
+            
        <div class="middle">
-        <h2>Get In Touch</h2>
+        
             <a class="btn facebook" href="https://github.com/khushboopriya">
                 <i class="fab fa-github"></i>
             </a>
