@@ -22,3 +22,22 @@
     margin: 3vh;
 
 }
+
+.button-cv{
+    background-color: white;
+    text-decoration: none;
+    width: 9vw;
+    height: 5vh;
+    color: black;
+    font-size: 3vh;
+    border: cadetblue;
+    border-width: 2px;
+    border-radius: 2vh;
+    padding: 1.5vh;
+    border-style: solid;
+    
+}
+
+.resume{
+    margin-top: 4vh;
+}

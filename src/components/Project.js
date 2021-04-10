@@ -12,16 +12,18 @@ const Project = ({title,description,poster,githublink,demolink,techstack}) => {
 
         <video className='videoTag' autoPlay loop muted
         style={{
-            position:"absolute",
-            width: "100%",
+            position:"fixed",
+            width: "100vw",
             // left:"50%",
             // top:"50%",
-            height:"100%",
+            height:"100vh",
             objectFit:"cover",
-            transform:"transalte(-50%,-50%)",
-            zIndex:"-1"
+            // transform:"transalte(-50%,-50%)",
+             zIndex:"-1"
+            
 
-        }}>
+        }
+        }>
         <source src={sample} type='video/mp4' />
             </video>
 

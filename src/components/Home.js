@@ -3,6 +3,7 @@ import portfolioimg from '../images/picportfolio.jpg';
 import './Home.css';
 import Navbar from './Navbar';
 import sample from '../images/my_bg.mov';
+import resume from '../images/ResumeKhushbooPriya__.pdf';
 class Home extends React.Component {
 
     render() {
@@ -39,9 +40,12 @@ class Home extends React.Component {
                         </p>
                         <p>
                         Solving real life problems with help of technology is something I love. Apart from that, I love painting,watching movies and working out in my free time.
-
-                        
                         </p>
+
+                        <p className="resume">
+                            <a href={resume} className="button-cv" download><i class="fa fa-download"></i>Download CV</a>
+                        </p>
+
 
                     </div>
 
